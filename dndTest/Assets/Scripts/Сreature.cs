@@ -2,8 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Creature
+namespace Pumba
 {
-    public string Name;
-    public string Description;
+    public class Creature
+    {
+        public string Name;
+        public string Description;
+
+        public  Creature(string name, string description)
+        {
+            Name = name;
+            Description = description;
+        }
+    }
+
 }
